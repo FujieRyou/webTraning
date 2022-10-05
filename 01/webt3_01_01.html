@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>switch文を使ってクイズゲームを作ってみる</title>
+</head>
+<body>
+    <div class="wrap">
+        <h1>問題</h1>
+        <div class="questionWrap">
+            <p>藤江諒の首に入っていたボルトの数は？</p>
+            <div class="btnWrap">
+                <button onclick="quiz1(8)">8</button>
+                <button onclick="quiz1(9)">9</button>
+                <button onclick="quiz1(10)">10</button>
+            </div>
+        </div>
+        <div class="questionWrap erase">
+            <p>藤江諒が現在、お試し期間としてお付き合いさせていただいてる女性の名前は？</p>
+            <div class="btnWrap">
+                <button class="lastQuizEvent" onclick="quiz2('まりん')">まりん</button>
+                <button class="lastQuizEvent" onclick="quiz2('まゆ')">まゆ</button>
+                <button class="lastQuizEvent" onclick="quiz2('らん')">らん</button>
+            </div>
+        </div>
+        <div class="questionWrap erase">
+            <p>藤江諒が嫌いな人は誰でしょうか？</p>
+            <div class="btnWrap">
+                <button >魚住</button>
+                <button >村上</button>
+                <button >下川</button>
+            </div>
+        </div>
+        <div class="resultWrap erase">
+            <p class="resultDisplay"></p>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

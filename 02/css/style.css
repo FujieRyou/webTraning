@@ -1,0 +1,71 @@
+.wrap{
+    width: 270px;
+    height: 430px;
+    border: solid 1px rgb(126, 126, 126);
+    margin: 0 auto;
+    margin-top: 80px;
+    box-shadow: 3px 3px 5px gray;
+    padding: 10px 15px;
+}
+
+.plfImgWrap{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.plfImg{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.name{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+input[type="file"] {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+label {
+    width: 40px;
+    height: 40px;
+    padding: 7px 14px;
+    display: flex;
+    border-radius: 20px;
+    background: #FF6A6A;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+
+.plf_detail{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.plf_detail > p:first-child{
+    text-align: end;
+    width: 70px;
+    margin-right: 16px;
+    white-space: nowrap;
+}
+
+.plf_detail > p:last-child{
+    width: 150px;
+}
+

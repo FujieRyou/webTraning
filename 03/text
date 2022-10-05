@@ -1,0 +1,2 @@
+fetch練習
+fetchで取ってきたデータをforEachを使って回し押したボタンに対応するidとtitleを表示

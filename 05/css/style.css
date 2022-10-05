@@ -1,0 +1,387 @@
+.Works-container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.works-number{
+    transition: .5s;
+}
+
+.Works-container__Works-ttl{
+    width: 30%;
+    height: 10px;
+    margin: 0 auto;
+    background-color: #48E073;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.Works-container h2{
+    font-size: 30px;
+    color: #707070;
+    text-align: center;
+}
+
+.Works-container__content{
+    width: 85%;
+    height: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.Works-container__content__select{
+    width: 1020px;
+    height: 645px;
+    border: solid 1px black;
+    position: relative;
+}
+
+/* ----ノスタルジッQメモリー------- */
+
+.Works-container__content__select__nosQ-memory{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/nosQ-back.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosQ-detail-btn{
+    width: 120px;
+    height: 50px;
+    border: solid 1px #000;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fff;
+    border: solid 4px #ED6D4A;
+    line-height: 4rem;
+    margin: 0 auto;
+}
+
+.nosQ-detail-btn a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.Works-container__content__select__nosQ-memory .start-screen{
+    width: 300px;
+    height: 480px;
+}
+
+.Works-container__content__select__nosQ-memory .ttl{
+    width: 500px;
+    height: 220px;
+    margin-bottom: 100px;
+}
+
+/* ---------------------------------------------- */
+/* ----CARD------- */
+.Works-container__content__select__card{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.Works-container__content__select__card__detail{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: #fff;
+    background-image: url("../img/card-fv.png");
+}
+
+.Works-container__content__select__card__detail img{
+    width: 272px;
+    height: 164px;
+    margin-bottom: 100px;
+}
+
+.card-detail-flex-wrap{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-detail-btn{
+    width: 120px;
+    height: 50px;
+    border: solid 1px #000;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fff;
+    border: solid 4px #ED6D4A;
+    line-height: 4rem;
+}
+
+.card-detail-btn a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+/* ---------------------------------------------- */
+/* ----mediexp------- */
+.Works-container__content__select__mediexp{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #DCEAF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Works-container__content__select__mediexp .start-screen{
+    width: 300px;
+    height: 480px;
+    margin-left: 70px;
+}
+
+.Works-container__content__select__mediexp__ttl-detail-btn{
+    width: 210px;
+}
+
+.Works-container__content__select__mediexp__ttl-detail-btn img{
+    margin-bottom: 30px;
+}
+
+.mediexp-detail-btn{
+    width: 120px;
+    height: 50px;
+    border: solid 1px #000;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fff;
+    border: solid 4px #ED6D4A;
+    line-height: 4rem;
+    margin: 0 auto;
+}
+
+.mediexp-detail-btn a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+/* ---------------------------------------------- */
+/* ----frimee------- */
+.Works-container__content__select__frimee{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #65CDC6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Works-container__content__select__frimee .start-screen{
+    width: 300px;
+    height: 480px;
+    margin-left: 70px;
+}
+
+.Works-container__content__select__frimee__ttl-detail-btn{
+    width: 350px;
+}
+
+.frimee-detail-btn{
+    width: 120px;
+    height: 50px;
+    border: solid 1px #000;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fff;
+    border: solid 4px #ED6D4A;
+    line-height: 4rem;
+    margin: 0 auto;
+}
+
+.frimee-detail-btn a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+/* ---------------------------------------------- */
+/* ----spiare-cafe------- */
+.Works-container__content__select__spiare-cafe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.Works-container__content__select__spiare-cafe__detail{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../img/ossan1ver2.png");
+    display: flex;
+    align-items: center;
+}
+
+.spiare-cafe-detail-flex-wrap{
+    width: 400px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spiare-cafe-detail-flex-wrap img{
+    width: 350px;
+    height: 80px;
+    margin-bottom: 70px;
+}
+
+.spiare-cafe-detail-btn{
+    width: 120px;
+    height: 50px;
+    border: solid 1px #000;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fff;
+    border: solid 4px #ED6D4A;
+    line-height: 4rem;
+    margin: 0 auto;
+}
+
+.spiare-cafe-detail-btn a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+/* ---------------------------------------------- */
+.lost{
+    opacity: 0;
+    visibility: hidden;
+}
+/* ---------------------------------------------- */
+
+.Works-container__content__list{
+    width: 144px;
+    height: 645px;
+    margin-left: 15px;
+}
+
+.Works-container__content__list .Works-list{
+    width: 144px;
+    height: 91px;
+    border: solid 1px black;
+    margin-bottom: 20px;
+    position: relative;
+    transition: .3s;
+}
+
+.spiare{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.frimee{
+    width: 62px;
+    height: 67px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.mediexp{
+    width: 84px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.card{
+    width: 110px;
+    height: 66px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.nosQ{
+    width: 120px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.Works-list:hover{
+    filter: grayscale(100%);
+    background-color: #707070;
+}
+
+.pattern2 img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    bottom: -250px;
+    left: 0px;
+}
